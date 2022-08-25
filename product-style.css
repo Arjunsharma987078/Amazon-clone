@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+.whole {
+    display: flex;
+    align-content: flex-start;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.text {
+    margin-left: 20px;
+}
+
+.whole .content {
+    width: 50%;
+}
+
+.whole .content .price {
+    size: 40px;
+    font-weight: bold;
+}
+
+.whole .content h2 {
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.whole .content .list li {
+    font-size: 20px;
+}
+
+.whole .image {
+    width: 50%;
+    border-radius: 25px;
+}
+
+.whole .image img {
+    width: 600px;
+    height: auto;
+    border-radius: 15px;
+    /* max-width: 50%; */
+}
+
+.whole .content p {
+    font-size: 30px;
+    font-style: embed;
+}
+
+.buttons {
+    display: flex;
+    gap: 2px;
+    /* border: none; */
+}
+
+.content .buttons .one {
+    width: 48%;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #ffa41c;
+    color: white;
+    border-color: #ffa41c;
+    /* size: 50px; */
+}
+
+.whole .content .buttons .two {
+    width: 48%;
+    height: 30px;
+    border-radius: 10px;
+    color: #ffa41c;
+    border-color: #ffa41c;
+}
